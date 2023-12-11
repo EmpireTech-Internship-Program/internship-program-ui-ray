@@ -1,9 +1,11 @@
 body {
-    background:#f0f2f5 ;
+    background:#f0f2f5;
 }
 
 .container {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     border: 1px solid blue;
     padding: 50px;
     background: blue;
@@ -43,6 +45,8 @@ body {
 }
 
 .main-form {
+    display: flex;
+    flex-direction: column;
     border: 1px solid white;
     padding: 50px;
     background: white;
@@ -51,15 +55,14 @@ body {
     transform: translateY(-530px);
     margin-left: 200px;
     border-radius: 8px;
-    position: relative;
 }
 
 .form-control {
     transform: translateY(30px);
 	margin-left: -10px;
-	height: 13%;
-	width: 100%;
-	padding: 14px;
+	height: 22%;
+	width: 286px;
+	padding-left: 90px;
 	margin-bottom: 10px;
 	border-radius: 8px;
 	border: 1px solid #dddfe2;
@@ -70,26 +73,26 @@ body {
 .icone {
     position: absolute;
     top: 26%;
-    transform: translateY(-17%);
+    transform: translateY(-10%);
     left: 60px;
     max-width: 60px;
-    max-height: 30px;
+    max-height: 25px;
 }
 
 .barra {
     position: absolute;
     top: 26%;
-    transform: translateY(-3%);
-    left: 117px; 
-    font-size: 20px;
+    transform: translateY(-7%);
+    left: 110px; 
+    font-size: 22px;
 }
 
 .password {
     transform: translateY(40px);
-	margin-left: -10px;
-	height: 13%;
-	width: 100%;
-	padding: 14px;
+	margin-left: -11px;
+	height: 22%;
+	width: 82%;
+	padding-left: 90px;
 	margin-bottom: 10px;
 	border-radius: 8px;
 	border: 1px solid #dddfe2;
@@ -99,44 +102,53 @@ body {
 .key {
     position: absolute;
     top: 50%;
-    transform: translateY(-32%);
-    left: 65px;
+    transform: translateY(-27%);
+    left: 62px;
     max-width: 60px;
-    max-height: 30px;
+    max-height: 25px;
 }
 
-.lock {
+.bar {
     position: absolute;
     top: 48%;
     transform: translateY(-1%);
-    left: 117px; 
-    font-size: 20px
+    left: 109px; 
+    font-size: 22px
 }
 
 .second-word {
     position: absolute;
+    border-bottom: 2px solid black;
     top: 18%; 
     left: 31%; 
     transform: translate(-50%, -50%);
     font-size: 25px;
     color: black;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
-.separator {
-    width: 125px;
-    border: 1px solid #000; 
-    transform: translateY(-865px) ;
-    margin-left: 346px;
+.second-word:hover {
+    border-bottom: 2px solid black;
 }
 
 .third-word {
     position: absolute;
-    top: 56%; 
-    left: 40%; 
+    top: 56%;
+    left: 40%;
     transform: translate(-50%, -50%);
     font-size: 17px;
     color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
 }
+    
+.third-word:hover {
+    border-bottom: 2px solid black;
+}       
 
 .verificar {
     top: 300px;
@@ -159,11 +171,4 @@ body {
     padding: 12px;
     transform: translateY(-680px);
     border-radius: 8px;
-}
-
-.line {
-    width: 118px;
-    border: 1px solid #000; 
-    transform: translateY(-635px) ;
-    margin-left: 470px;
 }
