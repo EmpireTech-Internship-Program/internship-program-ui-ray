@@ -3,5 +3,33 @@ body {
 }
 
 .container {
-    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid white;
+    padding: 50px;
+    background: white;
+    width: 100px;
+    height: 540px;
+    border-radius: 5px;
+    margin: -10px auto;
+    margin-left: -7px;
+}
+
+.title {
+    position: absolute;
+    top: 1%; 
+    margin-left: 5%; 
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    color: green;
+}
+
+.second-title {
+    position: absolute;
+    top: 1%; 
+    margin-left: 8%; 
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    color: blue;
 }
