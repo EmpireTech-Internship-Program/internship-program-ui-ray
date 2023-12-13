@@ -33,3 +33,29 @@ body {
     font-size: 29px;
     color: blue;
 }
+
+.profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -570px;
+    margin-left: 37px;
+}
+
+.profile img {
+    width: 85px;
+    height: 85px;
+    margin-top: 1px;
+    margin-left: 1px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    position: absolute;
+    margin-top: 10px; 
+    margin-left: 2%; 
+    font-size: 22px;
+    color: gray;
+}

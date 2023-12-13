@@ -12,7 +12,7 @@ function fazerLogin() {
         return false;
     }   
     
-    if (passwordField.value.length !== 6) {
+    if (passwordField.value.length <= 1) {
         alert("Senha incorreta. Por favor, verifique e corrija.");
         return false;
     }
