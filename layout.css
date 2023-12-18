@@ -59,3 +59,19 @@ body {
     font-size: 22px;
     color: gray;
 }
+
+.calendar {
+    color: gray;
+    margin-top: 90px;
+    margin-left: 43px;
+    font-size: 18px;
+}
+
+.calendar image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-27%);
+    left: 62px;
+    max-width: 60px;
+    max-height: 25px;
+}
