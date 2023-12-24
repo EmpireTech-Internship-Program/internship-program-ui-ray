@@ -40,3 +40,11 @@ function toggleMostrarOcultarSenha() {
 
     mostrarOcultarSenha();
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var meuBotao = document.getElementById('meuBotao');
+
+    meuBotao.addEventListener('click', function() {
+        this.classList.toggle('checked');
+    });
+});

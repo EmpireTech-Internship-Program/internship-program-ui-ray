@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+    <div class="borda-azul">
         <div>
             <p class="word">WELCOME!</p>
         </div>
@@ -20,7 +21,7 @@
         <button class="btn-primary" id="Inscrever-se" style="color: white;">SIGNUP</button>
         <div class="main-form">
             <input type="text" name="userInput ou emailInput" id="user" placeholder="input your user ID or Email" class="form-control">
-            <img class="icone" src="https://gartic.com.br/imgs/mural/ki/kiiwi/carta.png" alt="icone" />
+            <img class="icone" src="https://gartic.com.br/imgs/mural/ki/kiiwi/carta.png" alt="icone"/>
             <span class="barra">|</span>
             <input type="password" name="passwordinput" id="password" placeholder="input your password" class="password" oninput="mostrarOcultarSenha()">
             <img class="eye" src="https://cdn.onlinewebfonts.com/svg/img_55825.png" alt="eye" onclick="toggleMostrarOcultarSenha()">
@@ -31,8 +32,10 @@
             <p class="third-word">Forgot Password?</p>
         </div>   
     </div>
-        <input type="checkbox" id="verificar" class="verificar"> 
+        <input type="checkbox" id="verificar" class="verificar">
+        <button class="botao" id="meuBotao"></button>
         <p class="repository">Remember me</p>
         <button type="submit" class="btn-second" style="color: white;" onclick="fazerLogin()">LOG IN</button>
+    </div>
 </body>
 </html>
