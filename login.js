@@ -42,9 +42,9 @@ function toggleMostrarOcultarSenha() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var meuBotao = document.getElementById('meuBotao');
+    var signupButton = document.getElementById('signup');
 
-    meuBotao.addEventListener('click', function() {
+    signupButton.addEventListener('click', function() {
         this.classList.toggle('checked');
     });
 });

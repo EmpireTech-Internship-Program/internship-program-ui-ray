@@ -1,37 +1,45 @@
-body{
+body {
     background: #f0f2f5;
 }
 
 .container {
     display: flex;
+    margin: 0 auto;
     justify-content: center;
+    align-items: center;
+    width: 860px;
 }
 
-.borda-azul {
-    border: 1px solid blue;
-    padding: 50px;
+.welcome-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
     background: blue;
-    width: 340px;
-    height: 380px;
+    width: 500px;
+    height: 500px;
     border-radius: 8px;
-    margin-left: -220px;
-    margin-top: 50px;
-    position: relative;
-    z-index: 1;
 }
 
-.phrase {
-    font-size: 17px;
+.welcome-items {
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-subtitle {
+    font-size: 14px;
     color: white;
-    text-align: center;
-    position: absolute;
-    top: 226px;
-    left: 70px;
+    margin-top: -5px;
+    margin-left: 10px;
 }
 
 .word {
-    margin-top: 155px; 
-    margin-left: 109px; 
+    margin-top: 155px;
+    margin-left: 109px;
     font-size: 20px;
     color: white;
 }
@@ -39,58 +47,52 @@ body{
 .btn-primary {
     background-color: blue;
     border-color: white;
-    color:white;
-    margin-left: 760px;
-    margin-top: 795px;
+    color: white;
+    margin-top: 5px;
     width: 150px;
     padding: 12px;
-    transform: translateY(-390px);
 }
 
 .main-form {
+    position: absolute;
     align-items: center;
     border: 1px solid white;
     padding: 50px;
-    background: white;
+    margin-left: -350px;
+    background: #fff;
     width: 350px;
     height: 320px;
-    margin-top: 80px;
-    margin-left: -1780px; 
     border-radius: 8px;
     z-index: 2;
 }
 
 .form-control {
-    margin-left: -10px;
-    margin-top: 60px; 
     height: 22%;
     width: 286px;
-    padding-left: 90px;
     margin-bottom: 10px;
     border-radius: 8px;
     border: 1px solid #dddfe2;
     outline-color: blue;
+    padding-left: 60px;
 }
 
 
-.icone {
+.input-icon {
+    margin-top: 25px;
+    margin-left: 15px;
     position: absolute;
-    top: 222px;
-    left: 264px;
     max-width: 60px;
     max-height: 25px;
 }
 
 .barra {
     position: absolute;
-    top: 222px;
-    left: 310px; 
     font-size: 22px;
 }
 
 .password {
     margin-left: -10px;
-    margin-top: 10px; 
+    margin-top: 10px;
     height: 22%;
     width: 82%;
     padding-left: 90px;
@@ -101,51 +103,25 @@ body{
 }
 
 .eye {
+    position: absolute;
     cursor: pointer;
     width: 20px;
     height: 20px;
-    position: absolute;
-    right: 760px;
-    top: 320px;
-    margin-left: 100px;
+    top: 223px;
+    left: 350px;
 }
 
-.key {
-    position: absolute;
-    top: 317px;
-    left: 264px;
-    max-width: 60px;
-    max-height: 25px;
-}
-
-.bar {
-    position: absolute;
-    top: 315px;
-    left: 310px; 
-    font-size: 22px;
-}
-
-.second-word {
+.login-title {
     text-align: center;
-    position: absolute;
-    border-bottom: 2px solid black;
-    top: 120px; 
-    left: 420px; 
-    transform: translate(-50%, -50%);
+    text-decoration: underline;
     font-size: 25px;
     color: black;
     cursor: pointer;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.3s ease-in-out;
-}
-
-.second-word:hover {
-    border-bottom: 2px solid black;
 }
 
 .third-word {
+    align-self: end;
     margin-top: 23px;
-    margin-left: 243px;
     font-size: 17px;
     color: black;
     cursor: pointer;
@@ -154,57 +130,27 @@ body{
     transition: border-bottom 0.3s ease-in-out;
     white-space: nowrap;
 }
-    
+
 .third-word:hover {
     border-bottom: 2px solid black;
-}       
-
-.verificar {
-    top: 300px;
-    transform: translateY(-652px);
-    margin-left: 240px;
 }
 
-.repository {
-    margin-top: 395px;
-    margin-left: 15px;
-    z-index: 2;
+.login-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.botao {
-    width: 19px;
-    height: 19px;
-    margin-left: -660px;
-    margin-top: 394px;
-    background-color: white;
-    border: 1px solid #000;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    z-index: 2;
-    position: relative; 
-}
-
-.botao.checked {
-    background-color: blue;
-}
-
-.botao.checked:before {
-    content: '\2713';
-    font-size: 15px;
-    color: white;
-    position: absolute;
-    top: 49%;
-    left: 51%; 
-    transform: translate(-50%, -50%);
+.login {
+    display: flex;
+    flex-direction: column;
 }
 
 .btn-second {
-    display: inline-block;
     background-color: blue;
     border-color: white;
-    color:white;
-    margin-left: -9px;
-    margin-top: 430px;
+    color: white;
+    align-self: center;
     width: 140px;
     height: 45px;
     border-radius: 8px;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +9,41 @@
     <script src="login.js" type="text/javascript"></script>
     <link rel="stylesheet" href="Login.css">
 </head>
+
 <body>
     <div class="container">
-    <div class="borda-azul">
-        <div>
-            <p class="word">WELCOME!</p>
-        </div>
-        <div>
-            <p class="phrase">Enter your details and start the journey with us</p>
-        </div>
-    </div>
-        <button class="btn-primary" id="Inscrever-se" style="color: white;">SIGNUP</button>
         <div class="main-form">
-            <input type="text" name="userInput ou emailInput" id="user" placeholder="input your user ID or Email" class="form-control">
-            <img class="icone" src="https://gartic.com.br/imgs/mural/ki/kiiwi/carta.png" alt="icone"/>
-            <span class="barra">|</span>
-            <input type="password" name="passwordinput" id="password" placeholder="input your password" class="password" oninput="mostrarOcultarSenha()">
-            <img class="eye" src="https://cdn.onlinewebfonts.com/svg/img_55825.png" alt="eye" onclick="toggleMostrarOcultarSenha()">
-            <img class="key" src="https://2.bp.blogspot.com/-5IDGdZtsqlo/UaZFoHXwAiI/AAAAAAAABjg/6-B0NfPzEko/s400/chave+molde.jpg" alt="key"/>
-            <span class="bar">|</span>
-        <div>
-            <p class="second-word">Login please</p>
-            <p class="third-word">Forgot Password?</p>
-        </div>   
-    </div>
-        <input type="checkbox" id="verificar" class="verificar">
-        <button class="botao" id="meuBotao"></button>
-        <p class="repository">Remember me</p>
-        <button type="submit" class="btn-second" style="color: white;" onclick="fazerLogin()">LOG IN</button>
+            <h1 class="login-title">Login please</h1>
+            <img class="input-icon" src="https://gartic.com.br/imgs/mural/ki/kiiwi/carta.png" alt="icone" />
+            <input type="text" name="userInput ou emailInput" id="user" placeholder="input your user ID or Email"
+                class="form-control">
+            <img class="input-icon"
+                src="https://2.bp.blogspot.com/-5IDGdZtsqlo/UaZFoHXwAiI/AAAAAAAABjg/6-B0NfPzEko/s400/chave+molde.jpg"
+                alt="key" />
+            <input type="password" name="passwordinput" id="password" placeholder="input your password" class="form-control"
+                oninput="mostrarOcultarSenha()">
+            <img class="eye" src="https://cdn.onlinewebfonts.com/svg/img_55825.png" alt="eye"
+                onclick="toggleMostrarOcultarSenha()">
+            <div class="login">
+                <div class="login-links">
+                    <div class="remember-container">
+                        <input type="checkbox" id="verificar" class="verificar">
+                        <label for="verificar">Remember me</label>
+                    </div>
+                    <p class="third-word">Forgot Password?</p>
+                </div>
+                <button type="submit" class="btn-second" style="color: white;" onclick="fazerLogin()">LOG IN</button>
+            </div>
+        </div>
+        <div class="welcome-container">
+            <div class="welcome-items">
+                <h1 class="welcome-title">WELCOME!</h1>
+                <h4 class="welcome-subtitle">Enter your details and start the journey with us</h4>
+                <button class="btn-primary" id="Inscrever-se" style="color: white;">SIGNUP</button>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>

@@ -1,0 +1,159 @@
+.title {
+    font-size: 20px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.sub-title {
+    font-size: 27px;
+    margin-top: -10px;
+    margin-left: 28px;
+}
+
+.simple-word {
+    color: gray;
+    font-size: 18px;
+    margin-left: 1250px;
+    margin-top: -68px;
+}
+
+.seperator {
+    margin-top: 40px;
+    margin-left: -10px;
+    width: 1366px;
+    border: 1px solid #dddfe2;
+}
+
+.name {
+    color: gray;
+    margin-top: 60px;
+    margin-left: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-name {
+    height: 35px;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.Date {
+    margin-bottom: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 700px;
+}
+
+.date-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 260px; 
+    margin-top: 15px;
+}
+
+#dia,
+#mes,
+#ano,
+select {
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.CPF {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-CPF {
+    height: 35px;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.address {
+    color: gray;
+    margin-top: -60px;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-address {
+    height: 35px;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 696px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.phone-number {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-phone {
+    height: 35px;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.email {
+    color: gray;
+    margin-top: -60px;
+    margin-left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-email {
+    height: 35px;
+    width: 630px;
+    margin-top: -10px;
+    margin-left: 696px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.cancel-button {
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: gray;
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+
+.SA-button {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 50px;
+}
