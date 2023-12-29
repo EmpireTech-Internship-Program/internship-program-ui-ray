@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    <script src="Tela de Banco.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Tela de Banco.css">
+    <div class="container">
+        <div class="title-container">
+            <div>
+                <p class="title">veew</p>
+            </div>
+            <div>
+                <p class="second-title">me</p>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg">
+        </div>
+        <div class="name">Ray Jhonatta</div>
+        <p class="customers" onmouseover="mostrarLinha()" onmouseout="ocultarLinha()"
+            onclick="redirecionarParaPagina()">People<span id="linhaParaMostrar"></p>
+        <div class="second-container">
+            <span class="person image">👤</span>
+        </div>
+        <div>
+            <p class="bancos">Banks</p>
+        </div>
+        <div class="firts-container">
+            <span class="stock image">🏦</span>
+        </div>
+        <p class="conta">Account</p>
+        <div class="third-container">
+            <span class="account image">📱</span>
+        </div>
+        <p class="agência">Agency</p>
+        <div class="four-container">
+            <span class="agency image">🏢</span>
+        </div>
+        <div class="sub-container">
+            <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="navegation-button">
+            <div class="five-container">
+                <span class="search-image">🔍</span>
+            </div>
+        </div>
+        <div class="head">
+            <p class="sub-title">Cadastro do Banco</p>
+        </div>
+        <p class="date">Número de Identificação do Banco</p>
+        <input type="text" name="nome" id="Nome Completo" class="button-bank">
+        <p class="name-complete">Nome do Banco</p>
+        <select id="banco" name="bancos" obrigatório class="banco">
+            <option value="banco1">Banco do Brasil (BB)</option>
+            <option value="banco2">Caixa Econômica Federal (CEF)</option>
+            <option value="banco3">Banco Bradesco (BBDC)</option>
+            <option value="banco4">Banco Itaú Unibanco (ITUB)</option>
+        </select>
+            <button type="button" class="cancel-button" id="cancelar"
+                onclick="window.location.href='file:///C:/internship-program-ui-ray/layout.html'">Cancelar</button>
+            <button type="submit" class="SA-button" id="salvar" style="color: white;">Salvar</button>
+    </div>
+    </body>
+
+</html>

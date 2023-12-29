@@ -148,7 +148,7 @@ body {
 .table th, .table td {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
 }
 
 .table th {
@@ -193,7 +193,7 @@ body {
     border: 1px solid gray;
     background-color: black;
     margin-left: 1040px;
-    margin-top: -520px;
+    margin-top: -400px;
 }
 
 .listing {
