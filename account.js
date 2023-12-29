@@ -1,9 +1,9 @@
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Ag%C3%AAncia.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html'; 
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Ag%C3%AAncia.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html'; 
 }
 
 function confirmarRemover() {
@@ -34,5 +34,6 @@ function confirmarRemover() {
 }
 
 function redirecionarParaPagina() {
-    window.location.href = "file:///C:/internship-program-ui-ray/Tela%20de%20Ag%C3%AAncia.html";
+    window.location.href = "file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html";
 }
+

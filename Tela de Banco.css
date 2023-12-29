@@ -152,9 +152,9 @@ body {
     font-size: 15px;
 }
 
-.banco {
+.button {
     position: relative;
-    height: 45px;
+    height: 40px;
     width: 460px;
     border-radius: 8px;
     border: 1px solid gray;

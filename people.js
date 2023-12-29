@@ -36,3 +36,4 @@ function confirmarRemover() {
 function redirecionarParaPagina() {
     window.location.href = "C:/internship-program-ui-ray/Tela%20de%20Cadastro.html";
 }
+

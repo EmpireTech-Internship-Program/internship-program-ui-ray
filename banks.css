@@ -141,14 +141,14 @@ body {
 .table {
     width: 900px;
     border-collapse: collapse;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 300px;
 }
 
 .table th, .table td {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 20px;
+    padding: 12px;
 }
 
 .table th {
@@ -197,5 +197,11 @@ body {
     border: 1px solid gray;
     background-color: black;
     margin-left: 1040px;
-    margin-top: -520px;
+    margin-top: -355px;
+}
+
+.listing {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 310px;
 }
