@@ -1,9 +1,23 @@
+
+function mostrarLinha(elemento) {
+    elemento.style.textDecoration = "underline";
+}
+
+function ocultarLinha(elemento) {
+    elemento.style.textDecoration = "none";
+}
+
+function redirecionarParaPagina(url) {
+    window.location.href = url;
+}
+
+
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Banco.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Banks/views-banks/view.html';
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Banco.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Banks/edit-banks/edit.html';
 }
 
 function confirmarRemover() {
@@ -32,8 +46,3 @@ function confirmarRemover() {
         }
     });
 }
-
-function redirecionarParaPagina() {
-    window.location.href = "file:///C:/internship-program-ui-ray/Tela%20de%20Banco.html";
-}
-

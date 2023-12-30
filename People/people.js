@@ -1,9 +1,9 @@
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Cadastro.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html';
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Cadastro.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html';
 }
 
 function confirmarRemover() {
@@ -34,6 +34,6 @@ function confirmarRemover() {
 }
 
 function redirecionarParaPagina() {
-    window.location.href = "C:/internship-program-ui-ray/Tela%20de%20Cadastro.html";
+    window.location.href = "file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html";
 }
 

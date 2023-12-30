@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="listing.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="listing.css">
+</head>
+<div class="container">
+    <div class="title-container">
+        <div>
+            <p class="title">veew</p>
+        </div>
+        <div>
+            <p class="second-title">me</p>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg">
+    </div>
+    <div class="name">Ray Jhonatta</div>
+    <p class="bancos" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/Banks/listing-banks/listing.html')">
+        Banks<span id="linhaParaMostrar"></p>
+    <div class="second-container">
+        <span class="person image">🏦</span>
+    </div>
+    <div>
+        <p class="agência" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+            onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/Agency/Agency.html')">
+            Agency</p>
+    </div>
+    <div class="firts-container">
+        <span class="stock image">🏢</span>
+    </div>
+    <p class="conta" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/account/account.html')">
+        Account</p>
+    <div class="third-container">
+        <span class="account image">📱</span>
+    </div>
+    <p class="customers" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/People/people.html')">
+        People</p>
+    <div class="four-container">
+        <span class="agency image">👤</span>
+    </div>
+    <div class="sub-container">
+        <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="navegation-button">
+        <div class="five-container">
+            <span class="search-image">🔍</span>
+        </div>
+    </div>
+    <div>
+    <button type="submit" class="back-button" id="voltar"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/login/login.html')">🔙</button>
+</div>
+    <p class="listing">Listagem de Banco</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">N</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Nome do Banco</th>
+                <th scope="col">Número de Identificação do Banco</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Luis</td>
+                <td>Banco do Brasil (BB)</td>
+                <td>001</td>
+                <td>
+                    <button class="btn btn-view" onclick="redirecionarParaVer()">👁️Ver</button>
+                    <button class="btn btn-edit" onclick="redirecionarParaEditar()">✏️Editar</button>
+                    <button class="btn btn-remove" onclick="confirmarRemover()">🗑️Remover</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Gustavo</td>
+                <td>Caixa Econômica Federal (CEF)</td>
+                <td> 104</td>
+                <td>
+                    <button class="btn btn-view" onclick="redirecionarParaVer()">👁️Ver</button>
+                    <button class="btn btn-edit" onclick="redirecionarParaEditar()">✏️Editar</button>
+                    <button class="btn btn-remove" onclick="confirmarRemover()">🗑️Remover</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Bernado</td>
+                <td>Banco Bradesco (BBDC)</td>
+                <td>237</td>
+                <td>
+                    <button class="btn btn-view" onclick="redirecionarParaVer()">👁️Ver </button>
+                    <button class="btn btn-edit" onclick="redirecionarParaEditar()">✏️Editar</button>
+                    <button class="btn btn-remove" onclick="confirmarRemover()">🗑️Remover</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Guilherme</td>
+                <td>Banco Itaú Unibanco (ITUB)</td>
+                <td>341</td>
+                <td>
+                    <div class="btn-container">
+                        <button class="btn btn-view" onclick="redirecionarParaVer()">👁️Ver</button>
+                        <button class="btn btn-edit" onclick="redirecionarParaEditar()">✏️Editar</button>
+                        <button class="btn btn-remove" onclick="confirmarRemover()">🗑️Remover</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit" class="to-create" id="criar"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/Banks/creation-banks/creation.html')">Criar</button>
+    </table>
+</div>
+</body>
+
+</html>
