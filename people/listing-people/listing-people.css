@@ -1,0 +1,275 @@
+* {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -570px;
+    margin-left: 37px;
+}
+
+.name {
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 22px;
+    color: gray;
+}
+
+.bancos {
+    align-items: center;
+    color: gray;
+    font-size: 23px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.second-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 18px;
+}
+
+.agência {
+    color: gray;
+    font-size: 23px;
+    margin-top: 39px;
+    margin-left: 49px;
+}
+
+.firts-container {
+    align-items: center;
+    margin-top: -49px;
+    margin-left: 17px;
+}
+
+.conta {
+    color: gray;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 47px;
+    margin-top: 35px;
+}
+
+.third-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 19px;
+}
+
+.customers {
+    color: gray;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 47px;
+    margin-top: 38px;
+}
+
+.four-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 15px;
+}
+
+/***** HEADER ******/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+}
+
+.logo-container {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 45px;
+}
+
+.logo-first-name {
+    font-size: 29px;
+    color: green;
+}
+
+.logo-second-name {
+    font-size: 29px;
+    color: blue;
+}
+
+.search-container {
+    flex-grow: 10;
+    width: 200px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.search-input {
+    width: 200px;
+    height: 45px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.logout-button {
+    width: 50px;
+    height: 50px;
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+/***** HEADER ******/
+
+/***** ASIDE CONTAINER ******/
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.profile-photo {
+    width: 85px;
+    height: 85px;
+    align-self: center;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -10px;
+}
+
+.profile-name {
+    align-self: center;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    background: #fff;
+    margin-right: 40px;
+}
+
+.link-menu {
+    text-decoration: none;
+    font-family: "Roboto";
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.link-menu-container {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+/***** ASIDE CONTAINER ******/
+
+/***** MAIN CONTAINER ******/
+
+.main-container {
+    display: flex;
+}
+
+/***** MAIN CONTAINER ******/
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.list-header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-top: 60px;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table td .btn {
+    margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .table {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+.btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-view {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #337ab7;
+    color: white;
+}
+
+.btn-remove {
+    background-color: #d9534f;
+    color: white;
+}
+
+.to-create {
+    color: white;
+    width: 129px;
+    height: 37px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: black;
+}

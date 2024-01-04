@@ -1,9 +1,22 @@
+
+function mostrarLinha(elemento) {
+    elemento.style.textDecoration = "underline";
+}
+
+function ocultarLinha(elemento) {
+    elemento.style.textDecoration = "none";
+}
+
+function redirecionarParaPagina(url) {
+    window.location.href = url;
+}
+
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html';
+    window.location.href = 'file:///C:/internship-program-ui-ray/people/views-people/view-people.html';
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html';
+    window.location.href = 'file:///C:/internship-program-ui-ray/people/edit-people/edit-people.html';
 }
 
 function confirmarRemover() {
@@ -31,9 +44,5 @@ function confirmarRemover() {
             );
         }
     });
-}
-
-function redirecionarParaPagina() {
-    window.location.href = "file:///C:/internship-program-ui-ray/Tela-Cadastro/Tela%20de%20Cadastro.html";
 }
 
