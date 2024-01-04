@@ -1,3 +1,8 @@
+* {
+    font-family: "Roboto";
+}
+
+
 body {
     background: #f0f2f5;
 }
@@ -62,7 +67,7 @@ body {
     color: gray;
 }
 
-.customers {
+.bancos {
     align-items: center;
     color: gray;
     font-size: 23px;
@@ -76,7 +81,7 @@ body {
     margin-left: 18px;
 }
 
-.bancos {
+.agência {
     color: gray;
     font-size: 23px;
     margin-top: 39px;
@@ -103,7 +108,7 @@ body {
     margin-left: 19px;
 }
 
-.agência {
+.customers {
     color: gray;
     align-items: center;
     font-size: 23px;
@@ -138,66 +143,119 @@ body {
     margin-top: -36px;
 }
 
-.table {
-    width: 900px;
-    border-collapse: collapse;
-    margin-top: 10px;
-    margin-left: 300px;
+.sub-title {
+    font-size: 47px;
+    margin-top: 30px;
+    margin-left: 570px;
 }
 
-.table th, .table td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 20px;
+.name-complete {
+    color: gray;
+    margin-top: -66px;
+    margin-left: 264px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
-.table th {
-    background-color: #f2f2f2;
+.banco {
+    height: 35px;
+    width: 450px;
+    margin-top: -50px;
+    margin-left: 258px;
+    border-radius: 8px;
+    border: 1px solid gray;
 }
 
-@media (max-width: 767px) {
-    .table {
-        overflow-x: auto;
-        display: block;
-    }
+.phone-number {
+    color: gray;
+    margin-top: 25px;
+    margin-left: 263px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
-.btn {
-    padding: 5px 10px;
+.button-phone {
+    height: 35px;
+    width: 450px;
+    margin-top: -100px;
+    margin-left: 255px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.date {
+    margin-bottom: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 775px;
+}
+
+.button-bank {
+    position: relative;
+    height: 35px;
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    top: -5px;
+    left: 770px;
+}
+
+.address {
+    position: relative;
+    color: gray;
+    margin-top: -61px;
+    margin-left: 775px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-address {
+    height: 35px;
+    width: 500px;
+    margin-top: -30px;
+    margin-left: 770px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.phone-inicio {
+    color: gray;
+    margin-top: 25px;
+    margin-left: 259px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-inicio {
+    height: 35px;
+    width: 450px;
+    margin-top: -100px;
+    margin-left: 255px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.cancel-button {
+    color: white;
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: gray;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
+    margin-left: 1100px;
+    margin-top: 50px;
 }
 
-.btn-view {
-    background-color: #5cb85c;
-    color: white;
-}
-
-.btn-edit {
-    background-color: #337ab7;
-    color: white;
-}
-
-.btn-remove {
-    background-color: #d9534f;
-    color: white;
-}
-
-.to-create {
-    color: white;
+.SA-button {
     position: absolute;
-    width: 129px;
-    height: 37px;
+    width: 90px;
+    height: 34px;
     border-radius: 8px;
     border: 1px solid gray;
     background-color: black;
-    margin-left: 1040px;
-    margin-top: -400px;
-}
-
-.listing {
-    font-size: 45px;
-    margin-top: 20px;
-    margin-left: 310px;
+    margin-left: 10px;
+    margin-top: 50px;
 }

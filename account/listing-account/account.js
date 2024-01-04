@@ -1,9 +1,13 @@
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/account/views-account/view-account.html'; 
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html'; 
+    window.location.href = 'file:///C:/internship-program-ui-ray/account/edit-account/edit-account.html'; 
+}
+
+function redirecionarParaPagina(url) {
+    window.location.href = url;
 }
 
 function confirmarRemover() {
@@ -32,8 +36,3 @@ function confirmarRemover() {
         }
     });
 }
-
-function redirecionarParaPagina() {
-    window.location.href = "file:///C:/internship-program-ui-ray/Tela%20de%20Conta.html";
-}
-

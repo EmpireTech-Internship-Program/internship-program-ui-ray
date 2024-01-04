@@ -17,7 +17,7 @@ function redirecionarParaVer() {
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Tela%20de%20Ag%C3%AAncia.html';
+    window.location.href = 'file:///C:/internship-program-ui-ray/agency/edit-agency/edit-agency.html';
 }
 
 function confirmarRemover() {

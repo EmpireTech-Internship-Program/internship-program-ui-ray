@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script src="view-account.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="view-account.css">
+    <script src="creation-account.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="creation-account.css">
     <div class="container">
         <div class="title-container">
             <div>
@@ -57,27 +57,26 @@
             </div>
         </div>
         <div class="head">
-            <p class="sub-title">Cadastro de Conta</p>
+            <p class="sub-title">Cadastro da Conta</p>
         </div>
         <p class="date">Número da Conta</p>
-        <input type="text" name="nome" id="Nome Completo" class="button-bank" disabled>
+        <input type="text" name="nome" id="Nome Completo" class="button-bank">
         <p class="name-complete">Tipo de Conta</p>
-        <select id="banco" name="bancos" obrigatório class="banco" disabled>
+        <select id="banco" name="bancos" obrigatório class="banco">
             <option value="banco1">Conta Corrente</option>
             <option value="banco2">Conta Poupança</option>
             <option value="banco3">Conta de Investimento</option>
             <option value="banco4">Conta Universitária</option>
         </select>
         <p class="phone-inicio">Saldo Inicial</p>
-        <input type="text" name="phone-number" id="Número de telefone" class="button-inicio" disabled>
+        <input type="text" name="phone-number" id="Número de telefone" class="button-inicio">
         <p class="address">Titular da Conta</p>
-        <input type="text" name="endereço" id="address" class="button-address" disabled>
+        <input type="text" name="endereço" id="address" class="button-address">
         <p class="phone-number">Data de Abertura</p>
-        <input type="text" name="phone-number" id="Número de telefone" class="button-phone" disabled>
+        <input type="text" name="phone-number" id="Número de telefone" class="button-phone" >
         <button type="button" class="cancel-button" id="cancelar"
             onclick="window.location.href='file:///C:/internship-program-ui-ray/account/listing-account/account.html'">Cancelar</button>
         <button type="submit" class="SA-button" id="salvar" style="color: white;">Salvar</button>
     </div>
     </body>
-
 </html>

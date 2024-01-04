@@ -2,6 +2,7 @@
     font-family: "Roboto";
 }
 
+
 body {
     background: #f0f2f5;
 }
@@ -150,67 +151,88 @@ body {
 
 .name-complete {
     color: gray;
-    margin-top: -71px;
+    margin-top: -66px;
     margin-left: 264px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-.button {
-    position: relative;
-    height: 40px;
-    width: 460px;
+.banco {
+    height: 35px;
+    width: 450px;
+    margin-top: -50px;
+    margin-left: 258px;
     border-radius: 8px;
     border: 1px solid gray;
-    top: -10px;
-    left: 260px;
+}
+
+.phone-number {
+    color: gray;
+    margin-top: 25px;
+    margin-left: 263px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.button-phone {
+    height: 35px;
+    width: 450px;
+    margin-top: -100px;
+    margin-left: 255px;
+    border-radius: 8px;
+    border: 1px solid gray;
 }
 
 .date {
     margin-bottom: 10px;
     color: gray;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 13px;
+    margin-top: 80px;
     margin-left: 775px;
 }
 
 .button-bank {
     position: relative;
-    height: 40px;
-    width: 460px;
+    height: 35px;
+    width: 500px;
     border-radius: 8px;
     border: 1px solid gray;
     top: -5px;
     left: 770px;
 }
 
-.phone-number {
+.address {
+    position: relative;
     color: gray;
-    margin-top: 12px;
-    margin-left: 773px;
+    margin-top: -61px;
+    margin-left: 775px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-.button-phone {
+.button-address {
     height: 35px;
-    width: 460px;
-    margin-top: -50px;
+    width: 500px;
+    margin-top: -30px;
     margin-left: 770px;
     border-radius: 8px;
     border: 1px solid gray;
 }
 
-.Endereço {
+.phone-inicio {
     color: gray;
-    margin-top: -60px;
-    margin-left: 264px;
+    margin-top: 25px;
+    margin-left: 259px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
-.button-CPF {
+.button-inicio {
     height: 35px;
-    width: 455px;
-    margin-top: -90px;
-    margin-left: 260px;
+    width: 450px;
+    margin-top: -100px;
+    margin-left: 255px;
     border-radius: 8px;
     border: 1px solid gray;
 }
@@ -222,9 +244,9 @@ body {
     border-radius: 8px;
     border: 1px solid gray;
     background-color: gray;
+    cursor: pointer;
     margin-left: 1100px;
     margin-top: 50px;
-    cursor: pointer;
 }
 
 .SA-button {

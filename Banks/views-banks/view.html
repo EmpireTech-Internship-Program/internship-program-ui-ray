@@ -9,69 +9,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b0459b3855.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="view.js" type="text/javascript"></script>
     <link rel="stylesheet" href="view.css">
-    <div class="header-container">
-        <div class="logo-container">
-            <h1 class="logo-first-name">veew</h1>
-            <h1 class="logo-second-name">me</h1>
+</head>
+<div class="container">
+    <div class="title-container">
+        <div>
+            <p class="title">veew</p>
         </div>
-        <div class="search-container">
-            <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="search-input">
+        <div>
+            <p class="second-title">me</p>
         </div>
-        <button type="submit" class="logout-button" id="voltar"
-            onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/login/login.html')">
-            <i class="fa-solid fa-door-open"></i>
-        </button>
     </div>
-    <div class="main-container">
-        <div class="aside-container">
-            <div class="profile-container">
-                <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg"
-                    class="profile-photo">
-                <div class="profile-name">Ray Jhonatta</div>
-            </div>
-            <div class="link-menu-container">
-                <i class="fa-solid fa-building-columns"></i>
-                <a href="../listing-banks/listing.html" class="link-menu">Banks</a>
-            </div>
-            <div class="link-menu-container">
-                <i class="fa-solid fa-building"></i>
-                <a href="../../agency/listing-agency/listing-agency.html" class="link-menu">Agencies</a>
-            </div>
-            <div class="link-menu-container">
-                <i class="fa-solid fa-mobile"></i>
-                <a href="../../account/account.html" class="link-menu">Accounts</a>
-            </div>
-            <div class="link-menu-container">
-                <i class="fa-solid fa-person"></i>
-                <a href="../../People/people.html" class="link-menu">People</a>
-            </div>
-        </div>
-        <div class="head">
-            <h1 class="sub-title">Cadastro do Banco</h1>
-            <div class="field-container">
-                <div class="name-container">
-                    <p class="date">Número de Identificação do Banco</p>
-                </div>
-                <div class="input-container">
-                <input type="text" name="nome" id="nomeCompleto" class="button-bank" disabled>
-                <input type="text" name="nome" id="name" class="button" disabled>
-            </div>
-                <div class="name-container">
-                <p class="name-complete">Nome do Banco</p>
-            </div>
-            </div>
-        </div>
-        </select>
+    <div class="profile">
+        <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg">
     </div>
+    <div class="name">Ray Jhonatta</div>
+    <p class="bancos" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/Banks/listing-banks/listing.html')">
+        Banks<span id="linhaParaMostrar"></p>
+    <div class="second-container">
+        <span class="person image">🏦</span>
+    </div>
+    <div>
+        <p class="agência" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+            onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/agency/listing-agency/listing-agency.html')">
+            Agencies</p>
+    </div>
+    <div class="firts-container">
+        <span class="stock image">🏢</span>
+    </div>
+    <p class="conta" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/account/account.html')">
+        Accounts</p>
+    <div class="third-container">
+        <span class="account image">📱</span>
+    </div>
+    <p class="customers" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('file:///C:/internship-program-ui-ray/People/people.html')">
+        People</p>
+    <div class="four-container">
+        <span class="agency image">👤</span>
+    </div>
+    <div class="sub-container">
+        <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="navegation-button">
+        <div class="five-container">
+            <span class="search-image">🔍</span>
+        </div>
+    </div>
+    <div class="head">
+        <p class="sub-title">Cadastro do Banco</p>
+    </div>
+    <p class="date">Número de Identificação do Banco</p>
+    <input type="text" name="nome" id="nomeCompleto" class="button-bank" disabled>
+    <p class="name-complete">Nome do Banco</p>
+    <input type="text" name="nome" id="name" class="button" disabled>
     <button type="button" class="cancel-button" id="cancelar"
         onclick="window.location.href='file:///C:/internship-program-ui-ray/Banks/listing-banks/listing.html'">Cancelar</button>
     <button type="submit" class="SA-button" id="salvar" style="color: white;">Salvar</button>
-    </div>
-    </body>
+</div>
+</body>
 
 </html>
