@@ -32,7 +32,7 @@ function fazerLogin() {
         timer: 3000,
         allowOutsideClick: false,
         willClose: () => {
-            window.location.href = 'file:///C:/internship-program-ui-ray/Banks/listing-banks/listing.html';
+            window.location.href = '../Banks/listing-banks/listing.html';
         }
     });
 }

@@ -13,11 +13,11 @@ function redirecionarParaPagina(url) {
 
 
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/agency/views-agency/view-agency.html';
+    window.location.href = '../../agency/views-agency/view-agency.html';
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/agency/edit-agency/edit-agency.html';
+    window.location.href = '../../agency/edit-agency/edit-agency.html';
 }
 
 function confirmarRemover() {

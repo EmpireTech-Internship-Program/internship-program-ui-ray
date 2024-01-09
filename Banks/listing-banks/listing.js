@@ -13,11 +13,11 @@ function redirecionarParaPagina(url) {
 
 
 function redirecionarParaVer() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Banks/views-banks/view.html';
+    window.location.href = '../../Banks/views-banks/view.html';
 }
 
 function redirecionarParaEditar() {
-    window.location.href = 'file:///C:/internship-program-ui-ray/Banks/edit-banks/edit.html';
+    window.location.href = '../../Banks/edit-banks/edit.html';
 }
 
 function confirmarRemover() {
