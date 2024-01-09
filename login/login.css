@@ -1,0 +1,161 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    background: #f0f2f5;
+}
+
+/***** CONTAINER *****/
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+}
+
+/***** MAIN FORM *****/
+
+.main-form {
+    position: absolute;
+    align-items: center;
+    border: 1px solid white;
+    padding: 50px;
+    margin-left: -350px;
+    margin-top: 30px;
+    background: #fff;
+    width: 350px;
+    height: 320px;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.login-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.input-icon {
+    margin-top: 20px;
+    margin-left: 23px;
+    position: absolute;
+    max-width: 60px;
+    max-height: 25px;
+    font-size: 22px;
+}
+
+.form-control {
+    height: 22%;
+    width: 286px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    outline-color: blue;
+    padding-left: 60px;
+}
+
+.eye {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 223px;
+    left: 350px;
+}
+
+/***** LOGIN *****/
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verificar {
+    margin-top: 5px;
+}
+
+.third-word {
+    align-self: end;
+    margin-top: 23px;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+.third-word:hover {
+    border-bottom: 2px solid black;
+}
+
+.btn-second {
+    background-color: blue;
+    border-color: white;
+    color: white;
+    align-self: center;
+    width: 140px;
+    height: 45px;
+    border-radius: 8px;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+/***** LOGIN(the end) *****/
+
+/***** MAIN FORM(the end) *****/
+
+/**** WELCOME CONTAINER *****/
+
+.welcome-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 420px;
+    background: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.welcome-items {
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-subtitle {
+    font-size: 14px;
+    color: white;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.btn-primary {
+    background-color: blue;
+    border-color: white;
+    color: white;
+    margin-top: 5px;
+    width: 150px;
+    padding: 12px;
+}
+
+/**** WELCOME CONTAINER(the end) *****/
+
+/***** CONTAINER(the end) *****/

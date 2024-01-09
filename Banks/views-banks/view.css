@@ -1,0 +1,215 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    background: #f0f2f5;
+}
+
+/***** CONTAINER *****/
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid white;
+    padding: 50px;
+    background: white;
+    width: 100px;
+    height: 540px;
+    border-radius: 5px;
+    margin: -10px auto;
+    margin-left: -7px;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    top: 8px;
+    margin-left: -28px;
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    color: green;
+}
+
+.second-title {
+    position: absolute;
+    top: 8px;
+    margin-left: 18px;
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    color: blue;
+}
+
+.profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -570px;
+    margin-left: 37px;
+}
+
+.profile img {
+    width: 85px;
+    height: 85px;
+    margin-top: 1px;
+    margin-left: 1px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 22px;
+    color: gray;
+}
+
+.banco-container {
+    align-items: center;
+    color: gray;
+    font-size: 23px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.firts-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 18px;
+}
+
+.agencia-container {
+    color: gray;
+    font-size: 23px;
+    margin-top: 39px;
+    margin-left: 49px;
+}
+
+.second-container {
+    align-items: center;
+    margin-top: -49px;
+    margin-left: 17px;
+}
+
+.conta-container {
+    color: gray;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 47px;
+    margin-top: 35px;
+}
+
+.third-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 19px;
+}
+
+.people-container {
+    color: gray;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 47px;
+    margin-top: 38px;
+}
+
+.four-container {
+    align-items: center;
+    margin-top: -48px;
+    margin-left: 15px;
+}
+
+.sub-container {
+    background: white;
+    margin-top: -440px;
+    width: 1296px;
+    border: 1px solid white;
+    padding: 30px;
+}
+
+.navegation-button {
+    margin-left: 190px;
+    height: 45px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.five-container {
+    margin-left: 200px;
+    margin-top: -36px;
+}
+
+/***** HEAD *****/
+
+.sub-title {
+    font-size: 47px;
+    margin-top: 30px;
+    margin-left: 570px;
+}
+
+.name-bank {
+    color: gray;
+    margin-top: -71px;
+    margin-left: 264px;
+    font-size: 15px;
+}
+
+.button-name-bank {
+    position: relative;
+    height: 40px;
+    width: 460px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    top: -10px;
+    left: 260px;
+}
+
+.bank-identification-number {
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 775px;
+}
+
+.button-bank-number {
+    position: relative;
+    height: 40px;
+    width: 460px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    top: -5px;
+    left: 770px;
+}
+
+.cancel-button {
+    color: white;
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: gray;
+    margin-left: 1100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.SA-button {
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/***** HEAD(the end) *****/
+
+/***** CONTAINER(the end) *****/

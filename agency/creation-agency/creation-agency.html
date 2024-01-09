@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="creation-agency.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="creation-agency.css">
+</head>
+<div class="container">
+    <div class="title-container">
+        <div>
+            <p class="title">veew</p>
+        </div>
+        <div>
+            <p class="second-title">me</p>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg">
+    </div>
+    <div class="name">Ray Jhonatta</div>
+    <p class="banco-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../Banks/listing-banks/listing.html')">
+        Banks<span id="linhaParaMostrar"></p>
+    <div class="firts-container">
+        <span class="person image">🏦</span>
+    </div>
+    <div>
+        <p class="agencia-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+            onclick="redirecionarParaPagina('../../agency/listing-agency/listing-agency.html')">
+            Agencies</p>
+    </div>
+    <div class="second-container">
+        <span class="stock image">🏢</span>
+    </div>
+    <p class="conta-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../account/account.html')">
+        Accounts</p>
+    <div class="third-container">
+        <span class="account image">📱</span>
+    </div>
+    <p class="people-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../people/listing-people/listing-people.html')">
+        People</p>
+    <div class="four-container">
+        <span class="agency image">👤</span>
+    </div>
+    <div class="sub-container">
+        <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="navegation-button">
+        <div class="five-container">
+            <span class="search-image">🔍</span>
+        </div>
+    </div>
+    <div class="head">
+        <p class="sub-title">Cadastro de Agência</p>
+    </div>
+    <p class="name-complete">Nome</p>
+    <input type="text" name="nome" id="Nome Completo" class="button-name">
+    <p class="number">Número</p>
+    <input type="text" name="text-CPF" id="CPF" class="button-number">
+    <p class="address">Endereço</p>
+    <input type="text" name="text-CPF" id="CPF" class="button-address">
+    <p class="code">Código</p>
+    <input type="text" name="phone-number" id="Número de telefone" class="button-code">
+    <select id="banco" name="bancos" obrigatório class="bank-container">
+        <option value="banco1">Banco do Brasil (BB)</option>
+        <option value="banco2">Caixa Econômica Federal (CEF)</option>
+        <option value="banco3">Banco Bradesco (BBDC)</option>
+        <option value="banco4">Banco Itaú Unibanco (ITUB)</option>
+    </select>
+    <div>
+        <p class="name-bank">Banco</p>
+    </div>
+    <button type="button" class="cancel-button" id="cancelar"
+        onclick="window.location.href='../../agency/listing-agency/listing-agency.html'">Cancelar</button>
+    <button type="submit" class="SA-button" id="salvar" style="color: white;">Salvar</button>
+</div>
+</body>
+
+</html>

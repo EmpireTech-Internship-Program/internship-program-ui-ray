@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="login.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-form">
+            <h1 class="login-title">Login please</h1>
+            <span class="input-icon">📧</span>
+            <input type="text" name="userInput ou emailInput" id="user" placeholder="input your user ID or Email"
+                class="form-control">
+            <span class="input-icon">🔑</span>
+            <input type="password" name="passwordinput" id="password" placeholder="input your password"
+                class="form-control" oninput="mostrarOcultarSenha()">
+            <img class="eye" src="https://cdn.onlinewebfonts.com/svg/img_55825.png" alt="eye"
+                onclick="toggleMostrarOcultarSenha()">
+            <div class="login">
+                <div class="login-links">
+                    <div class="remember-container">
+                        <input type="checkbox" id="verificar" class="verificar">
+                        <label for="verificar">Remember me</label>
+                    </div>
+                    <p class="third-word">Forgot Password?</p>
+                </div>
+                <button type="submit" class="btn-second" style="color: white;" onclick="fazerLogin()">LOG IN</button>
+            </div>
+        </div>
+        <div class="welcome-container">
+            <div class="welcome-items">
+                <h1 class="welcome-title">WELCOME!</h1>
+                <h4 class="welcome-subtitle">Enter your details and start the journey with us</h4>
+                <button class="btn-primary" id="Inscrever-se" style="color: white;">SIGNUP</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

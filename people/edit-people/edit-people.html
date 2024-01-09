@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="edit-people.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="edit-people.css">
+</head>
+<div class="container">
+    <div class="title-container">
+        <div>
+            <p class="title">veew</p>
+        </div>
+        <div>
+            <p class="second-title">me</p>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="https://oimperialista.com.br/wp-content/uploads/2020/04/como-ser-um-homem-de-principios.jpg">
+    </div>
+    <div class="name">Ray Jhonatta</div>
+    <p class="banco-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../Banks/listing-banks/listing.html')">
+        Banks<span id="linhaParaMostrar"></p>
+    <div class="firts-container">
+        <span class="person image">🏦</span>
+    </div>
+    <div>
+        <p class="agencia-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+            onclick="redirecionarParaPagina('../../agency/listing-agency/listing-agency.html')">
+            Agencies</p>
+    </div>
+    <div class="second-container">
+        <span class="stock image">🏢</span>
+    </div>
+    <p class="conta-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../account/account.html')">
+        Accounts</p>
+    <div class="third-container">
+        <span class="account image">📱</span>
+    </div>
+    <p class="people-container" onmouseover="mostrarLinha(this)" onmouseout="ocultarLinha(this)"
+        onclick="redirecionarParaPagina('../../people/listing-people/listing-people.html')">
+        People</p>
+    <div class="four-container">
+        <span class="agency image">👤</span>
+    </div>
+    <div class="sub-container">
+        <input type="text" name="procurar" id="pesquisar" placeholder="Search" class="navegation-button">
+        <div class="five-container">
+            <span class="search-image">🔍</span>
+        </div>
+    </div>
+    <div class="head">
+        <p class="sub-title">Cadastro do Usuário</p>
+    </div>
+    <p class="name-complete">Nome Completo</p>
+    <input type="text" name="nome" id="Nome Completo" class="button-name">
+    <p class="birth-data">Data de Nascimento</p>
+    <div class="data-container">
+        <input type="number" id="dia" name="dia" min="1" max="31" placeholder="Dia">
+        <select id="mes" name="mes" disabled>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+            </selecionar>
+            <input type="number" id="ano" name="ano" min="1900" placeholder="Ano">
+    </div>
+    <div>
+        <p class="cpf-number">CPF</p>
+        <input type="text" name="text-CPF" id="CPF" class="button-cpf-number">
+    </div>
+    <p class="address">Endereço</p>
+    <input type="text" name="endereço" id="address" class="button-address">
+    <div>
+        <p class="phone-number">Número de telefone</p>
+        <input type="text" name="phone-number" id="Número de telefone" class="button-phone-number">
+    </div>
+    <p class="email">E-mail</p>
+    <input type="text" name="text-email" id="email" class="button-email">
+    <button type="button" class="cancel-button" id="cancelar"
+        onclick="window.location.href='../../people/listing-people/listing-people.html'">Cancelar</button>
+    <button type="submit" class="SA-button" id="salvar" style="color: white;">Salvar</button>
+</div>
+</body>
+
+</html>
